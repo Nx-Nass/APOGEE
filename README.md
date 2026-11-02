@@ -1,29 +1,28 @@
 # APOGEE
 
-Atlas interactif des constellations et des objets du ciel. L’application tient dans
-un seul fichier HTML et fonctionne hors ligne : ouvre [`index.html`](index.html)
-dans un navigateur récent. Les catalogues nécessaires sont intégrés au fichier.
+An interactive atlas of IAU constellations and objects in the sky. The app is
+self-contained: open [`index.html`](index.html) in a modern browser, even when
+offline. Its required catalogues are embedded in the HTML file.
 
-Le dépôt publie la version actuelle d’APOGEE, avec les symboles originaux des
-pulsars et des trous noirs, la recherche par joker `*` et l’affichage des nombres
-avec des espaces fines pour les milliers.
+APOGEE includes original pulsar and black-hole symbols, `*` wildcard search,
+and thin-space grouping for large numbers.
 
-## Licence
+![APOGEE night sky atlas](screenshot.png)
 
-Le **code original d’APOGEE et ses symboles originaux** sont placés sous
-[0BSD](LICENSE) : utilisation, modification et redistribution libres, y compris
-commerciales, sans obligation de conserver cette notice.
+## License
 
-Le fichier HTML contient aussi des éléments tiers qui **conservent leurs propres
-licences** : cartes UAI/Sky & Telescope sous CC BY 4.0, données adaptées de HYG
-et OpenNGC sous CC BY-SA 4.0, et Three.js sous MIT. D’autres catalogues sont
-cités sans qu’une licence « sans condition » ait été établie pour eux. Les crédits,
-les liens et les conditions par source figurent dans
-[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) et dans la légende de
-l’application. La licence 0BSD ne s’applique donc pas à tout le HTML d’un bloc.
+**Original APOGEE application code and original symbols** are released under
+[0BSD](LICENSE). They may be used, modified, and redistributed for any purpose,
+including commercial use, without a notice-retention requirement.
 
-## Sources
+The HTML also contains third-party works under **their own terms**: adapted
+IAU/Sky & Telescope charts (CC BY 4.0), adapted HYG and OpenNGC catalogue data
+(CC BY-SA 4.0), and bundled Three.js (MIT). Other scientific catalogues are
+credited, but no unrestricted reuse license has been established for them.
+See [third-party notices](THIRD_PARTY_NOTICES.md) and the app's Legend dialog.
+The 0BSD grant does not apply to the entire HTML file as a single work.
 
-Les 89 PDF de travail du dossier local `UAI/` ne sont pas requis pour utiliser
-APOGEE et ne sont pas inclus dans ce dépôt. Les cartes adaptées sont déjà
-intégrées au fichier HTML.
+## Included files
+
+The 89 source PDFs in the local `UAI/` folder are not needed to run the app and
+are not included. The adapted chart data are already embedded in `index.html`.
